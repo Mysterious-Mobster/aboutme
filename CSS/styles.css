@@ -1,0 +1,37 @@
+h1 p{
+	color: red; 
+	text-decoration: underline;
+}
+
+::selection {
+	background-color: black; 
+}
+
+body {
+	text-align: center;
+	margin: 0 0 5em 5em;
+	background-color: orange;
+ 	background-image:url("../Images/LetterP.png");
+	background-repeat: no-repeat;
+	width: 100em;
+	height: 100em; 
+	background-size: 30em 30em;
+	background-position: left 10em bottom 50em;
+	border-style: dotted;
+	border-width: 3em;
+	border-color: black;
+	font-size: .5em;
+	font-style: bold;
+	font: Times;
+}
+ #csgo {
+	background-image:url("../Images/CSGO.png");
+	height: 30em;
+	width: 55em;
+	background-repeat: no-repeat;
+	background-position: left 32em bottom 8em;	
+}
+ul {
+	float:left;
+	list-style: square;
+}
